@@ -1,0 +1,6 @@
+rootProject.name = 'ultimate-kits'
+
+include(
+  'api',
+  'plugin'
+)
