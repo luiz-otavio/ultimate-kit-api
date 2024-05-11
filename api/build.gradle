@@ -1,5 +1,3 @@
-
-
 tasks {
   javadoc {
     options.encoding = 'UTF-8' // We want UTF-8 for everything
