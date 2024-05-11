@@ -10,8 +10,17 @@ import org.jetbrains.annotations.NotNull;
  **/
 public interface KitAPI {
 
+  /**
+   * Get the registry of kits from the plugin
+   * It's all the time mutable after reload
+   * @return the registry of kits
+   */
   @NotNull KitRegistry getRegistry();
 
+  /**
+   * Get the cooldown service from the plugin
+   * @return the cooldown service
+   */
   @NotNull CooldownService getCooldownService();
 
 }
