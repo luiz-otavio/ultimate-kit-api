@@ -8,13 +8,15 @@ import lombok.Setter;
 import org.bukkit.entity.Player;
 
 /**
+ * Called when a player equips the kit by the GUI.
+ *
  * @author Luiz O. F. Corrêa
  * @since 09/05/2024
  **/
 @AllArgsConstructor
 @Getter
 @Setter
-public class PlayerEquiptKitEvent extends UltimateKitEvent {
+public class PlayerEquipKitEvent extends UltimateKitEvent {
 
   private final Player player;
 

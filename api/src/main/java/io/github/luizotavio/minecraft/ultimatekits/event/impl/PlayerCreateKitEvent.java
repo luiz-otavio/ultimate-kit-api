@@ -8,6 +8,8 @@ import lombok.Setter;
 import org.bukkit.entity.Player;
 
 /**
+ * Called when an admin tries to create a kit.
+ *
  * @author Luiz O. F. Corrêa
  * @since 09/05/2024
  **/

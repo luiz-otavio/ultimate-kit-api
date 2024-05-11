@@ -9,14 +9,26 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * Standard registry of kits based on the kit name
+ * It's responsible for managing the kits of the plugin and the loader strategy
+ * This registry is mutable, and you can register/unregister kits
+ *
  * @author Luiz O. F. Corrêa
  * @since 09/05/2024
  **/
 public interface KitRegistry {
 
+  /**
+   * Get the loader strategy of the kits
+   * @return the loader strategy of the kits
+   */
   @NotNull
   KitLoaderStrategy getLoaderStrategy();
 
+  /**
+   * Set the loader strategy of the kits
+   * @param loaderStrategy the loader strategy of the kits
+   */
   void setLoaderStrategy(@NotNull KitLoaderStrategy loaderStrategy);
 
   /**

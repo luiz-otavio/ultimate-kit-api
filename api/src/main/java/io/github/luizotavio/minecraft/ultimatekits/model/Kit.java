@@ -85,10 +85,28 @@ public interface Kit {
    */
   void removeItem(@NotNull ItemStack item);
 
+  /**
+   * Get the option of the kit
+   * @param clazz Class of the option
+   * @param option Option to get
+   * @return Value of the option
+   * @param <T> Type of the option
+   */
   <T> T getOption(Class<T> clazz, @NotNull Option option);
 
+  /**
+   * Get the option of the kit
+   * @param option Option to get
+   * @return Value of the option
+   * @param <T> Type of the option
+   */
   <T> T getOption(@NotNull Option option);
 
+  /**
+   * Get the icon of the kit based on the status
+   * @param status Status of the icon
+   * @return ItemStack of the icon
+   */
   @NotNull
   ItemStack getIcon(@NotNull ItemStatus status);
 

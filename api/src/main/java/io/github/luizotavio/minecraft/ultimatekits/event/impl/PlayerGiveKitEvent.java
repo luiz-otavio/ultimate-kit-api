@@ -8,6 +8,8 @@ import lombok.Setter;
 import org.bukkit.entity.Player;
 
 /**
+ * Called when an admin gives a kit to a player or himself.
+ *
  * @author Luiz O. F. Corrêa
  * @since 09/05/2024
  **/

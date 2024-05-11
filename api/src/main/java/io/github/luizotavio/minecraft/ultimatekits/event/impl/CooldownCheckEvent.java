@@ -8,6 +8,9 @@ import lombok.Setter;
 import org.bukkit.entity.Player;
 
 /**
+ * Called on checking for cooldown of a kit when a player
+ * tries to equip it.
+ *
  * @author Luiz O. F. Corrêa
  * @since 09/05/2024
  **/
